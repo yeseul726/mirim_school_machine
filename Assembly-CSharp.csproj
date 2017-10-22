@@ -51,7 +51,6 @@
      <Compile Include="Assets\quit.cs" />
      <Compile Include="Assets\result_exit_bnt.cs" />
      <Compile Include="Assets\result_replay_btn.cs" />
-     <Compile Include="Assets\stage1_top.cs" />
      <Compile Include="Assets\start.cs" />
      <Compile Include="Assets\start_way.cs" />
      <Compile Include="Assets\start_waytoplay.cs" />
