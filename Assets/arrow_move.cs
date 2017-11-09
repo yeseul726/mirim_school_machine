@@ -26,7 +26,7 @@ public class arrow_move : MonoBehaviour {
 	public static float start_second_blk = -3.9f, end_second_blk = -0.01f;
 	public static float start_third_blk = 0, end_third_blk = 3.87f;
 	public static float start_fourth_blk = 3.88f, end_fourth_blk = 6.92f;
-	public int season = 0; //춘추복, 동복, 하복 구별하기 위해서
+	public static int season = 0; //춘추복, 동복, 하복 구별하기 위해서
 
 
 	// Use this for initialization
@@ -294,7 +294,7 @@ public class arrow_move : MonoBehaviour {
 	public void result(){
 		switch (season) {
 		case 1:
-			if (score == 66 || score == 73) {
+			if (season == start.mission_num && (score == 66 || score == 73)) {
 				Debug.Log ("atum success");
 				SceneManager.LoadScene (3);
 			} else {
@@ -303,7 +303,7 @@ public class arrow_move : MonoBehaviour {
 			}
 			break;
 		case 2:
-			if (score == 48) {
+			if (season == start.mission_num && score == 48) {
 				Debug.Log ("winter success");
 				SceneManager.LoadScene (3);
 			} else {
@@ -312,7 +312,7 @@ public class arrow_move : MonoBehaviour {
 			}
 			break;
 		case 3:
-			if (score == 77) {
+			if (season == start.mission_num && score == 77) {
 				Debug.Log ("summer success");
 				SceneManager.LoadScene (3);
 			} else {

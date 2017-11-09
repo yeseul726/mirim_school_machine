@@ -50,14 +50,17 @@
      <Compile Include="Assets\go_home.cs" />
      <Compile Include="Assets\go_next.cs" />
      <Compile Include="Assets\go_prev.cs" />
+     <Compile Include="Assets\main_keep_sound.cs" />
      <Compile Include="Assets\move_stop.cs" />
      <Compile Include="Assets\quit.cs" />
+     <Compile Include="Assets\random_mission.cs" />
      <Compile Include="Assets\result_exit_bnt.cs" />
      <Compile Include="Assets\result_replay_btn.cs" />
      <Compile Include="Assets\show_complete.cs" />
      <Compile Include="Assets\start.cs" />
      <Compile Include="Assets\start_way.cs" />
      <Compile Include="Assets\start_waytoplay.cs" />
+     <Compile Include="Assets\touch_mission_layout.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
