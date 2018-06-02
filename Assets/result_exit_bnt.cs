@@ -16,6 +16,7 @@ public class result_exit_bnt : MonoBehaviour {
 	}
 
 	public void Click(){
-		System.Diagnostics.Process.GetCurrentProcess().Kill();
+		//System.Diagnostics.Process.GetCurrentProcess().Kill();
+		SceneManager.LoadScene(0);
 	}
 }

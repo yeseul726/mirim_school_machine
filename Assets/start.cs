@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class start : MonoBehaviour {
 
 	public static int mission_num;
+	public static int player_season_num;
+	public static int player_score;
 
 	void Start()
 	{
@@ -16,7 +18,7 @@ public class start : MonoBehaviour {
 		Debug.Log ("click~~!~!");
 		mission_num = Random.Range (1, 4);
 		//1 : summer 2 : auttum 3 : winter
-		arrow_move.season = mission_num;
+		//arrow_move.season = mission_num;
 		Debug.Log (mission_num);
 		if (mission_num == 1) {
 			SceneManager.LoadScene ("mission_autumn");

@@ -8,7 +8,7 @@ public class arrow_stop : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log ("SIBAL JOTTO ANDAE");
+		
 	}
 	
 	// Update is called once per frame
